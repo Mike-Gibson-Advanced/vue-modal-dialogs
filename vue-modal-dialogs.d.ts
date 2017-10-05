@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue = require("vue")
 export as namespace VueModalDialogs
 
 export type TransitionEventHandler = () => void
