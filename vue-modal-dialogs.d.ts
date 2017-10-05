@@ -3,7 +3,11 @@ export as namespace VueModalDialogs
 
 export type TransitionEventHandler = () => void
 
-interface WrapperRenderOptions extends Vue.VNodeData {
+interface VNodeData extends Vue.VNodeData {
+  on?: any
+}
+
+interface WrapperRenderOptions extends VNodeData {
   props?: {
     tag?: string,
     name?: string,
