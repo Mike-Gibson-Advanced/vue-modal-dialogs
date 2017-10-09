@@ -116,6 +116,11 @@ interface PluginOptions {
    */
   wrapper?: WrapperRenderOptions
 
+  /**
+   * Component options of the wrapper element.
+   */
+  wrapperComponentOptions?: Vue.ComponentOptions<Vue>
+
   /** Options to control the `z-index` css property of each dialog */
   zIndex?: {
     /**
