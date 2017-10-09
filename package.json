@@ -1,7 +1,7 @@
 {
   "name": "vue-modal-dialogs",
-  "version": "1.1.1",
-  "description": "A Promise-based modal dialog helper for Vue.js",
+  "version": "1.2.0-alpha",
+  "description": "A Promise-based modal dialog helper for Vue.js. Customised while PRs are merged to main version. Original: https://github.com/hjkcai/vue-modal-dialogs",
   "main": "dist/index.js",
   "typings": "vue-modal-dialogs.d.ts",
   "files": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hjkcai/vue-modal-dialogs.git"
+    "url": "git+https://github.com/Mike-Gibson-Advanced/vue-modal-dialogs.git"
   },
   "keywords": [
     "vue",
@@ -26,12 +26,12 @@
     "dialogs",
     "promise"
   ],
-  "author": "Jingkun Hua <huajingkun1214@gmail.com>",
+  "author": "Mike Gibson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hjkcai/vue-modal-dialogs/issues"
+    "url": "https://github.com/Mike-Gibson-Advanced/vue-modal-dialogs.git/issues"
   },
-  "homepage": "https://github.com/hjkcai/vue-modal-dialogs#readme",
+  "homepage": "https://github.com/Mike-Gibson-Advanced/vue-modal-dialogs.git#readme",
   "devDependencies": {
     "@types/express": "^4.0.34",
     "@types/webpack": "^2.1.0",
